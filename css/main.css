@@ -1,0 +1,274 @@
+*{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container__nav{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.navbar__wrap{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo_img{
+    margin-right: 50px;
+}
+
+.nav-links a{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+    color: #001A49;
+    transition: 0.7s;
+}
+
+.nav-links a:hover{
+    transform: translateY(1px);
+    color: #0541b1;
+}
+
+.link-center{
+    margin-left: 50px;
+    margin-right: 322px;
+}
+
+.nav-links{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.get-started-button{
+    display: block;
+    position: relative;
+    width: 147px;
+    height: 50px;
+    background: linear-gradient(44.11deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    border-radius: 33px;
+    box-shadow: 2px 1px 1px rgb(54, 53, 53);
+    transition: 0.7s;
+}
+
+.get-started-button:hover{
+    background: linear-gradient(44.11deg, #a235c0 15.75%, #5c0394 84.63%);
+    transform: translateY(1px);
+}
+
+.get-started-button span{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nav__button{
+    margin-left: 50px;
+}
+
+.hamb{
+    display: none;
+}
+
+.header-bacgraund{
+    background-color: #faf2ff;
+    border-radius: 0px 20px 20px 0px;
+    max-width: 1090px;
+    margin-top: 30px;
+}
+
+.header-container{
+    max-width: 560px;
+    margin-left: 160px;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: #001A49;
+}
+
+.header-title{
+    padding-top: 134px;
+    padding-bottom: 20px;
+}
+
+.subtitle{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F596A;
+}
+
+.header-button{
+    margin: 40px 0 100px 0;
+}
+
+.join-content{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 94px;
+}
+
+.join-label{
+    margin-top: 4%;
+    margin-left: 9px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F596A;
+}
+
+.purpure-label{
+    color: #9F07FF;
+}
+
+.header-content{
+    position: relative;
+}
+
+.header-video{
+    position: absolute;
+    max-width: 590px;
+    left: 870px;
+    top: 200px;
+}
+
+.main-container{
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.statistic-columns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic-column{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 130px;
+}
+
+
+.separation{
+    width: 1px;
+    height: 112px;
+    background: #E7EAEB;
+    margin-top: 30px;
+}
+
+.number{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #001A49;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4F596A;
+}
+
+.fon-sphere-1{
+    position: absolute;
+    left: -145px;
+    top: 17px;
+    z-index: 0;
+}
+
+.fon-sphere-2{
+    position: absolute;
+    left: 1120px;
+    top: 187px;
+    z-index: 0;
+}
+
+.statistic{
+    position: relative;
+    display: block;
+    margin-top: 194px;
+    max-width: 100%;
+    height: 172px;
+    background: #FFFFFF;
+    border: 1px solid #E7EAEB;
+    border-radius: 21px;
+    z-index: 1;
+}
